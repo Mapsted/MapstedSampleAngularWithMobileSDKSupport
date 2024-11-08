@@ -29,9 +29,11 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ## Installation
 1. Clone the repo, then install the packages using:
 ```sh
-npm install
+    npm install
 ```
+
 2. Install the pods on iOS
+
 3. Build the Angular project:
 ```sh
    npm run build
