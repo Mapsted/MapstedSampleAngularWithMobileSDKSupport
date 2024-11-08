@@ -1,0 +1,35 @@
+{
+    "declarations": {
+        "use_frameworks!": {
+            "declaration": "use_frameworks!",
+            "count": 1
+        }
+    },
+    "sources": {
+        "https://cdn.cocoapods.org/": {
+            "source": "https://cdn.cocoapods.org/",
+            "count": 1
+        },
+        "https://github.com/Mapsted/podspec-simulator.git": {
+            "source": "https://github.com/Mapsted/podspec-simulator.git",
+            "count": 1
+        }
+    },
+    "libraries": {
+        "mapsted-sdk-map": {
+            "name": "mapsted-sdk-map",
+            "spec": "6.0.2",
+            "count": 1
+        },
+        "mapsted-sdk-map-ui": {
+            "name": "mapsted-sdk-map-ui",
+            "spec": "6.0.2",
+            "count": 1
+        },
+        "mapsted-sdk-geofence": {
+            "name": "mapsted-sdk-geofence",
+            "spec": "6.0.2",
+            "count": 1
+        }
+    }
+}

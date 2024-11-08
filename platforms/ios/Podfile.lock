@@ -1,0 +1,64 @@
+PODS:
+  - mapsted-sdk-alerts (6.0.3):
+    - mapsted-sdk-triggers-core (= 6.0.3)
+  - mapsted-sdk-core (6.0.3):
+    - SSZipArchive
+  - mapsted-sdk-core-map (4.4.6.2)
+  - mapsted-sdk-geofence (6.0.3):
+    - mapsted-sdk-core (= 6.0.3)
+  - mapsted-sdk-loc-marketing (6.0.3):
+    - mapsted-sdk-core (= 6.0.3)
+  - mapsted-sdk-location-share (6.0.3):
+    - mapsted-sdk-core (= 6.0.3)
+  - mapsted-sdk-map (6.0.3):
+    - mapsted-sdk-core (= 6.0.3)
+    - mapsted-sdk-core-map (= 4.4.6.2)
+  - mapsted-sdk-map-ui (6.0.3):
+    - mapsted-sdk-alerts (= 6.0.3)
+    - mapsted-sdk-loc-marketing (= 6.0.3)
+    - mapsted-sdk-location-share (= 6.0.3)
+    - mapsted-sdk-map (= 6.0.3)
+    - SDWebImage
+  - mapsted-sdk-triggers-core (6.0.3):
+    - mapsted-sdk-core (= 6.0.3)
+  - SDWebImage (5.20.0):
+    - SDWebImage/Core (= 5.20.0)
+  - SDWebImage/Core (5.20.0)
+  - SSZipArchive (2.4.3)
+
+DEPENDENCIES:
+  - mapsted-sdk-geofence (= 6.0.3)
+  - mapsted-sdk-map (= 6.0.3)
+  - mapsted-sdk-map-ui (= 6.0.3)
+
+SPEC REPOS:
+  https://github.com/Mapsted/podspec-simulator.git:
+    - mapsted-sdk-alerts
+    - mapsted-sdk-core
+    - mapsted-sdk-core-map
+    - mapsted-sdk-geofence
+    - mapsted-sdk-loc-marketing
+    - mapsted-sdk-location-share
+    - mapsted-sdk-map
+    - mapsted-sdk-map-ui
+    - mapsted-sdk-triggers-core
+  trunk:
+    - SDWebImage
+    - SSZipArchive
+
+SPEC CHECKSUMS:
+  mapsted-sdk-alerts: 05760fffb568f681d0d430d52fd35dfbe7dd4160
+  mapsted-sdk-core: 6baf80d1dae2b777f64e3c4bfc4f7a833a5a1265
+  mapsted-sdk-core-map: 3b1a6cc029381236023ed8e35268206ee9559b1f
+  mapsted-sdk-geofence: 6b374ecfb6ea79673efb3addaba61ec016d812df
+  mapsted-sdk-loc-marketing: a0d58d4d816e43638fd66d586cfc830e6d06556f
+  mapsted-sdk-location-share: c4b46c4fdf76f070d4f19ef673a4232b6ac95e70
+  mapsted-sdk-map: c32759d29e9f6454f09876f8315afa3ff2020cb2
+  mapsted-sdk-map-ui: 24e1dd7b85a1ddf4250f50f4235bccaa33374c4e
+  mapsted-sdk-triggers-core: 78e5eed07a3a93950e8224a2114a1f4fa94caf71
+  SDWebImage: 73c6079366fea25fa4bb9640d5fb58f0893facd8
+  SSZipArchive: fe6a26b2a54d5a0890f2567b5cc6de5caa600aef
+
+PODFILE CHECKSUM: d79d5c052bd1dca098b0d0b17f84cef52cf15af2
+
+COCOAPODS: 1.15.2

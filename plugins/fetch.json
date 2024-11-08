@@ -1,0 +1,10 @@
+{
+  "mapsted-cordova-plugin": {
+    "source": {
+      "type": "registry",
+      "id": "mapsted-cordova-plugin"
+    },
+    "is_top_level": true,
+    "variables": {}
+  }
+}
